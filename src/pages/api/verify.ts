@@ -11,7 +11,7 @@ export type VerifyReply = {
   detail: string;
 };
 
-const verifyEndpoint = `${process.env.NEXT_PUBLIC_WLD_API_BASE_URL}/api/v1/verify/${process.env.NEXT_PUBLIC_WLD_APP_ID}`;
+const verifyEndpoint = `https://developer.worldcoin.org/api/v1/verify/app_ac34b300261cda310cd28286b47e63c8`;
 
 export default function handler(
   req: NextApiRequest,
